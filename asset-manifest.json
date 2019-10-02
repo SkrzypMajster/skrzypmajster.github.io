@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11fb746a.chunk.css",
+    "main.js": "/static/js/main.45e488d9.chunk.js",
+    "main.js.map": "/static/js/main.45e488d9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.376997bd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.376997bd.js.map",
+    "static/js/2.c26b40cb.chunk.js": "/static/js/2.c26b40cb.chunk.js",
+    "static/js/2.c26b40cb.chunk.js.map": "/static/js/2.c26b40cb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7a476d70a8454497f99b6882f120a9cb.js": "/precache-manifest.7a476d70a8454497f99b6882f120a9cb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.11fb746a.chunk.css.map": "/static/css/main.11fb746a.chunk.css.map",
+    "static/media/comming-soon.page.scss": "/static/media/comming-soon-background.4735fb72.jpg"
+  }
+}
