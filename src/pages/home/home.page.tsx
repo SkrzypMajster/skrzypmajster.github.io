@@ -7,7 +7,8 @@ import {
   ResumeComponent,
   ProjectsComponent,
   ContactComponent,
-  FooterComponent
+  FooterComponent,
+  AboutComponent
 } from '../../components';
 
 interface IProps { }
@@ -17,6 +18,7 @@ export const HomePage: React.SFC<IProps> = (props: IProps) => {
     <div className="home">
       <NavbarComponent />
       <SliderComponent />
+      <AboutComponent />
       <SectionHeaderComponent />
       <ResumeComponent />
       <SectionHeaderComponent />
