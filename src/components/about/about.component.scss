@@ -1,3 +1,37 @@
 .about {
+  width: 960px;
+  margin: 0 auto;
+  padding: 64px 16px;
+  color: #777;
 
+  &__header {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__sentence {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__image {
+    max-width: 100%;
+    padding: 12px 48px 12px 24px;
+  }
+
+  &__text {
+    p {
+      text-align: justify;
+    }
+  }
 }
