@@ -38,11 +38,14 @@ export const HomePage: React.SFC<IProps> = (props: IProps) => {
     }
   ];
 
+  const sliderText = 'Dawid "SkrzypMajster" Skrzypczyk';
+
   return (
     <div className="home">
       <NavbarComponent
         links={navbarLinks}/>
-      <SliderComponent />
+      <SliderComponent
+        text={sliderText} />
       <AboutComponent />
       <SectionHeaderComponent />
       <ResumeComponent />
