@@ -11,18 +11,32 @@ $hover-link-background: #ccc;
   height: $navbar-height;
   background: transparent;
   z-index: 100;
+  transition: background-color 0.5s;
 
   &__link {
     display: inline-block;
+    height: 100%;
     padding: 8px 16px;
     color: $link-color;
     text-transform: uppercase;
     text-decoration: none;
     transition: background-color 0.2s;
+    box-sizing: border-box;
 
     &:hover {
       cursor: pointer;
       background-color: $hover-link-background;
     }
+
+    &:not(:first-child).active {
+      background-color: #f1f1f1;
+    }
+  }
+
+  &--fixed {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
+                0 2px 10px 0 rgba(0,0,0,0.12)
   }
 }
