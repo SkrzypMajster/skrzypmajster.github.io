@@ -1,12 +1,22 @@
 import React from 'react';
 import './section-header.component.scss';
 
-interface IProps { }
+interface IProps {
+  text: string;
+  className: string;
+  sectionId: string;
+}
 
 export const SectionHeaderComponent: React.SFC<IProps> = (props: IProps) => {
+  const {
+    text,
+    className,
+    sectionId
+  } = props;
+
   return (
-    <div>
-      Section header component works.
+    <div id={sectionId} className={`section-header ${className}`}>
+      <h2 className="section-header__text">{text}</h2>
     </div>
   );
 }

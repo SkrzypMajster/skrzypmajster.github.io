@@ -1,3 +1,32 @@
 .section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
 
+  &__text {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+  }
+
+  &--contact {
+    background-image: url('../../assets/gfx/contact-section-image.jpg');
+  }
+
+  &--portfolio {
+    background-image: url('../../assets/gfx/portfolio-section-image.jpg');
+  }
+
+  &--resume {
+    background-image: url('../../assets/gfx/resume-section-image.jpg');
+  }
 }
