@@ -30,9 +30,9 @@ export const FooterComponent: React.SFC<IProps> = (props: IProps) => {
 };
 
 function renderSocialMediaLinks(socialMedias: SocialMediaModel[]): JSX.Element[] {
-  return socialMedias.map((socialMedia: SocialMediaModel) => {
+  return socialMedias.map((socialMedia: SocialMediaModel, index: number) => {
     return (
-      <a className="footer__social-link" href={socialMedia.link} rel="noopener">
+      <a key={index} className="footer__social-link" href={socialMedia.link} rel="noopener">
         <Icon name={socialMedia.icon} />
       </a>
     );

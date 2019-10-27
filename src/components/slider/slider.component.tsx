@@ -9,7 +9,7 @@ export const SliderComponent: React.SFC<IProps> = (props: IProps) => {
   const { text } = props;
 
   return (
-    <div className="slider">
+    <div id="home" className="slider">
       <div className="slider__text">{text}</div>
     </div>
   );

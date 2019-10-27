@@ -21,7 +21,7 @@ export const AboutComponent: React.SFC<IProps> = (props: IProps) => {
       <h3 className="about__header">About me</h3>
       <p className="about__sentence">{sentence}</p>
       <div className="about__content">
-        <img className="about__image" src={imageSrc} alt="Author's image"></img>
+        <img className="about__image" src={imageSrc} alt="Author's avatar"></img>
         <article className="about__text">
           {textParagraphs}
         </article>
@@ -31,7 +31,7 @@ export const AboutComponent: React.SFC<IProps> = (props: IProps) => {
 }
 
 function renderParagraphs(paragraphs: string[]): JSX.Element[] {
-  return paragraphs.map((paragraph: string) => {
-    return <p>{paragraph}</p>
+  return paragraphs.map((paragraph: string, index: number) => {
+    return <p key={index}>{paragraph}</p>
   });
 }
