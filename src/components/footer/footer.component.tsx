@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.component.scss';
 import { SocialMediaModel } from '../../models';
 import { Icon } from '../icon/icon.component';
+import { Link } from 'react-scroll';
 
 interface IProps {
   author: string;
@@ -18,13 +19,21 @@ export const FooterComponent: React.SFC<IProps> = (props: IProps) => {
 
   return (
     <footer className="footer">
-      <a className="footer__up" href="#home">
-        <Icon name="up" /> To the top
-      </a>
+      <Link
+        className="footer__up"
+        to="home"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+      >
+        <Icon name="up" className="footer__up-icon" />
+        <span className="footer__up-text">To the top</span>
+      </Link>
       <div className="footer__social">
         {socialMediaLinks}
       </div>
-      <span>Created by {author}</span>
+      <span className="footer__created">Created by {author}</span>
     </footer>
   );
 };

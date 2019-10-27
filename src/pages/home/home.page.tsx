@@ -16,26 +16,11 @@ interface IProps { }
 
 export const HomePage: React.SFC<IProps> = (props: IProps) => {
   const navbarLinks: NavbarLinkModel[] = [
-    {
-      path: '#home',
-      text: 'Home',
-    },
-    {
-      path: '#about',
-      text: 'About'
-    },
-    {
-      path: '#resume',
-      text: 'My resume'
-    },
-    {
-      path: '#portfolio',
-      text: 'Portfolio'
-    },
-    {
-      path: '#contact',
-      text: 'Contact'
-    }
+    { sectionName: 'home', text: 'Home' },
+    { sectionName: 'about', text: 'About' },
+    { sectionName: 'resume', text: 'My resume' },
+    { sectionName: 'portfolio', text: 'Portfolio' },
+    { sectionName: 'contact', text: 'Contact' }
   ];
 
   const sliderText = 'Dawid "SkrzypMajster" Skrzypczyk';

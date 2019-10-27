@@ -6,7 +6,7 @@ $text-color: #fff;
   text-align: center;
   background-color: $footer-background;
 
-  span {
+  &__created {
     color: $text-color;
   }
 
@@ -23,6 +23,7 @@ $text-color: #fff;
   }
 
   &__up {
+    position: relative;
     display: inline-block;
     padding: 8px 16px;
     color: #000;
@@ -30,8 +31,24 @@ $text-color: #fff;
     text-decoration: none;
     user-select: none;
 
+    &-icon {
+      position: absolute;
+      top: 50%;
+      transition: top 0.2s;
+      transform: translateY(-50%);
+    }
+
+    &-text {
+      padding-left: 25px;
+    }
+
     &:hover {
+      cursor: pointer;
       background-color: #ccc;
+
+      .footer__up-icon {
+        top: calc(50% - 3px);
+      }
     }
   }
 }
