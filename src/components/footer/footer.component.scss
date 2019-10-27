@@ -1,3 +1,37 @@
-.footer {
+$footer-background: #000;
+$text-color: #fff;
 
+.footer {
+  padding: 64px 0;
+  text-align: center;
+  background-color: $footer-background;
+
+  span {
+    color: $text-color;
+  }
+
+  &__social {
+    margin: 16px 0;
+
+    &-link {
+      font-size: 24px;
+
+      i {
+        color: $text-color;
+      }
+    }
+  }
+
+  &__up {
+    display: inline-block;
+    padding: 8px 16px;
+    color: #000;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    user-select: none;
+
+    &:hover {
+      background-color: #ccc;
+    }
+  }
 }

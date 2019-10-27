@@ -10,7 +10,7 @@ import {
   FooterComponent,
   AboutComponent
 } from '../../components';
-import { NavbarLinkModel } from '../../models';
+import { NavbarLinkModel, SocialMediaModel } from '../../models';
 
 interface IProps { }
 
@@ -48,6 +48,24 @@ export const HomePage: React.SFC<IProps> = (props: IProps) => {
     'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
   ];
 
+  const socialMediasArray: SocialMediaModel[] = [
+    {
+      name: 'Facebook',
+      icon: 'facebook',
+      link: 'https://www.facebook.com/dskrzypczyk'
+    },
+    {
+      name: 'Github',
+      icon: 'github',
+      link: 'https://github.com/SkrzypMajster'
+    },
+    {
+      name: 'Linkedin',
+      icon: 'linkedin',
+      link: 'https://www.linkedin.com/in/dawid-skrzypczyk/'
+    }
+  ];
+
   return (
     <div className="home">
       <NavbarComponent
@@ -58,13 +76,24 @@ export const HomePage: React.SFC<IProps> = (props: IProps) => {
         sentence={userSentence}
         imageSrc={userImageUrl}
         paragraphs={aboutTextParagraphs} />
-      <SectionHeaderComponent />
+      <SectionHeaderComponent
+        text="Resume"
+        className="section-header--resume"
+        sectionId="resume"/>
       <ResumeComponent />
-      <SectionHeaderComponent />
+      <SectionHeaderComponent
+        text="Portfolio"
+        className="section-header--portfolio"
+        sectionId="portfolio"/>
       <ProjectsComponent />
-      <SectionHeaderComponent />
+      <SectionHeaderComponent
+        text="Contact"
+        className="section-header--contact"
+        sectionId="contact"/>
       <ContactComponent />
-      <FooterComponent />
+      <FooterComponent
+        author={sliderText}
+        socialMedias={socialMediasArray}/>
     </div>
   );
 };
