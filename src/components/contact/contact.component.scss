@@ -1,3 +1,39 @@
 .contact {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 64px 16px;
+  color: #777;
 
+  &__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+  }
+
+  &__card {
+    display: inline-block;
+
+    &-label:not(:last-child) {
+      margin-bottom: 6px;
+    }
+  }
+
+  &__header {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__sentence {
+    margin: 0;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+  }
+}
+
+.icon {
+  width: 30px
 }

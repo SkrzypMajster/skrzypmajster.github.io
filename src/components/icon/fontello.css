@@ -57,8 +57,10 @@
 
 .icon-user:before       { content: '\e800'; } /* '' */
 .icon-th:before         { content: '\e801'; } /* '' */
-.icon-mail:before       { content: '\e802'; } /* '' */
-.icon-facebook:before   { content: '\e803'; } /* '' */
-.icon-github:before     { content: '\e804'; } /* '' */
-.icon-linkedin:before   { content: '\e805'; } /* '' */
-.icon-up:before         { content: '\e806'; } /* '' */
+.icon-facebook:before   { content: '\e802'; } /* '' */
+.icon-github:before     { content: '\e803'; } /* '' */
+.icon-linkedin:before   { content: '\e804'; } /* '' */
+.icon-up:before         { content: '\e805'; } /* '' */
+.icon-location:before   { content: '\e806'; } /* '' */
+.icon-phone:before      { content: '\e807'; } /* '' */
+.icon-mail:before       { content: '\e808'; } /* '' */

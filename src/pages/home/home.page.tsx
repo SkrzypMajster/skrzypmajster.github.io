@@ -10,7 +10,7 @@ import {
   FooterComponent,
   AboutComponent
 } from '../../components';
-import { NavbarLinkModel, SocialMediaModel } from '../../models';
+import { NavbarLinkModel, SocialMediaModel, ContactDataModel } from '../../models';
 
 interface IProps { }
 
@@ -66,6 +66,12 @@ export const HomePage: React.SFC<IProps> = (props: IProps) => {
     }
   ];
 
+  const contactData: ContactDataModel = {
+    address: "Łęcka 63, 32-626 Jawiszowice",
+    email: "skrzypmajster@gmail.com",
+    phoneNumber: "+48796769178",
+  }
+
   return (
     <div className="home">
       <NavbarComponent
@@ -90,7 +96,8 @@ export const HomePage: React.SFC<IProps> = (props: IProps) => {
         text="Contact"
         className="section-header--contact"
         sectionId="contact"/>
-      <ContactComponent />
+      <ContactComponent
+        data={contactData}/>
       <FooterComponent
         author={sliderText}
         socialMedias={socialMediasArray}/>
