@@ -1,0 +1,117 @@
+{
+  "basics": {
+    "name": "Dawid Skrzypczyk",
+    "label": "Junior Front-end Developer",
+    "picture": "https://avatars3.githubusercontent.com/u/22637715?s=360",
+    "email": "skrzypmajster@gmail.com",
+    "phone": "+48796769178",
+    "website": "http://skrzypmajster.github.io",
+    "summary": "Hi everyone! My name is David. I'm a Frontend Developer and Computer Science student at the Silesian University of Technology in Gliwice. In my work I really like creating new solutions and learning about new technologies to create modern, elegant and functional frontend applications. I am open to making new contacts so feel free to contact me",
+    "location": {
+      "address": "Łęcka 63",
+      "postalCode": "32-626",
+      "city": "Jawiszowice",
+      "countryCode": "PL",
+      "region": "Malopolskie"
+    },
+    "profiles": [
+      {
+        "network": "Facebook",
+        "username": "Dawid Skrzypczyk",
+        "url": "https://www.facebook.com/dskrzypczyk"
+      },
+      {
+        "network": "Github",
+        "username": "SkrzypMajster",
+        "url": "https://github.com/SkrzypMajster"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Dawid Skrzypczyk",
+        "url": "https://www.linkedin.com/in/dawid-skrzypczyk/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Skyrise.tech",
+      "position": "Junior Front-end developer",
+      "website": "http://www.skyrise.tech",
+      "startDate": "2018-10-01",
+      "endDate": null,
+      "summary": "Description...",
+      "highlights": []
+    },
+    {
+      "company": "Skyrise.tech",
+      "position": "Software Developer Intern",
+      "website": "http://www.skyrise.tech",
+      "startDate": "2018-07-02",
+      "endDate": "2018-09-30",
+      "summary": "Getting to know the software development process, front-end programming techniques and best practices in software development. Creating simple functionalities in commercial applications.",
+      "highlights": []
+    },
+    {
+      "company": "Mobis Computers",
+      "position": "Computer Service Technician",
+      "website": "",
+      "startDate": "2014-10-01",
+      "endDate": "2014-10-31",
+      "summary": "Repair and assembly of computers, installation and configuration of operating systems and software, data recovery from hard drives.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Silesian University of Technology",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "Advanced Mobile Devices Programming"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Polish",
+      "fluency": "Mother tongue"
+    },
+    {
+      "language": "English",
+      "fluency": "B2 Level"
+    },
+    {
+      "language": "German",
+      "fluency": "Basics"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": []
+}
